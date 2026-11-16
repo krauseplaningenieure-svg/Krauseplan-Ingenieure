@@ -418,5 +418,8 @@ summary:hover .pm { border-color: var(--rule-strong); }
 .note { margin-top: 1.9rem; border-left: 2px solid var(--gold); padding: .15rem 0 .15rem 1.1rem; color: var(--muted); max-width: 44rem; }
 .note strong { color: var(--text); font-weight: 600; }
 .rel { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: clamp(1.5rem, 4vw, 3rem); border-top: 1.5px solid var(--rule-strong); }
+.legal .cl { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); }
+.legal .cl > span:first-child { color: var(--muted); }
+.foot nav { flex-wrap: wrap; row-gap: .4rem; }
 .rel__all { display: inline-block; margin-top: 1.6rem; font-weight: 600; color: var(--accent-ink); text-underline-offset: 3px; }
 @media (max-width: 899px) { .subs, .rel, .gets:has(.photo) { grid-template-columns: 1fr; } .duties li { grid-template-columns: 1fr; } }
